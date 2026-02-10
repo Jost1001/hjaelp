@@ -1,0 +1,49 @@
+/**************** mobil *****************/
+
+/**************** desktop *****************/
+@media (min-width: 900px) {
+  /**************** Index *****************/
+  .section.grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  .section.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    .dl.grid_1-1 {
+      .PC {
+        place-self: start left;
+      }
+      .Win {
+        place-self: start right;
+      }
+      .Tab {
+        place-self: end left;
+      }
+      .Smart {
+        place-self: end right;
+      }
+    }
+  }
+
+  .billede {
+    order: -1;
+  }
+
+  /**************** Min computer *****************/
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  /**************** Operativsystemer *****************/
+
+  /**************** Komponenter *****************/
+
+  /**************** Galleri *****************/
+}

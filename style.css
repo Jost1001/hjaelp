@@ -1,0 +1,174 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** Fonts *********************/
+
+.do-hyeon-regular {
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "relationship_of_mlodrameRg";
+  src: url(VT323-webfontkit-20260205/relationship_of_melodrame-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.computere {
+  font-family: "Do Hyeon", sans-serif;
+  color: #9c3306;
+  /* text-shadow: -2px 2px 1px rgb(0, 0, 0); */
+  font-size: 3rem;
+}
+
+.min_computer_title {
+  font-family: "Do Hyeon", sans-serif;
+  color: #7a5400;
+  /* text-shadow: -2px 2px 1px rgb(0, 0, 0); */
+  font-size: 3rem;
+}
+
+.op_title {
+  font-family: "Do Hyeon", sans-serif;
+  color: #0a6e3a;
+  /* text-shadow: -2px 2px 1px rgb(0, 0, 0); */
+  font-size: 3rem;
+}
+
+.komponenter_title {
+  font-family: "Do Hyeon", sans-serif;
+  color: #0c4978;
+  /* text-shadow: -2px 2px 1px rgb(0, 0, 0); */
+  font-size: 3rem;
+}
+
+.galleri_title {
+  font-family: "Do Hyeon", sans-serif;
+  color: #80368f;
+  /* text-shadow: -2px 2px 1px rgb(0, 0, 0); */
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "relationship_of_mlodrameRg";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/*************** Farver *********************/
+/* .color1 {
+  color: #71a0a9;
+}
+.color2 {
+  color: #324b4f;
+}
+.color3 {
+  color: #c1dce2;
+}
+.color4 {
+  color: #9f94b0;
+}
+.color5 {
+  color: #6b617c;
+}
+.color6 {
+  color: #832800;
+}
+.color7 {
+  color: #ffe9d0;
+} */
+
+.min_computer_link {
+  color: #7a5400;
+  text-decoration: none;
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: normal;
+}
+/*************** Margin og padding ***************/
+
+h1 {
+  margin-block: 3rem 0.8rem;
+}
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-bottom: 1.3rem;
+  padding: 0.2rem;
+  max-width: 75ch;
+  /* hvis man altid sætter dette ind i sit css sheet, så vil man aldrig få for lange sætninger */
+}
+.p_link {
+  overflow-wrap: break-word;
+}
+main {
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  padding-block: 0.1rem;
+  max-width: 1200px;
+  /* hvis man sætter dette ind i css kan man styre maks størrelse på billeder */
+}
+.billede {
+  margin-right: 2rem;
+  margin-bottom: 0.3rem;
+  padding-block: 0.19rem;
+}
+.after_image {
+  margin-block: 5rem 0.8rem;
+}
+dl {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 0.7rem;
+}
+.min_computer_link {
+  margin-left: 1rem;
+}
+
+footer {
+  margin-top: 1rem;
+  padding-left: 1.1rem;
+}
+
+.billede2 {
+  margin-top: 9rem;
+}
+.billede3 {
+  margin-top: 7.5rem;
+}
+/*************** Baggrunde ***************/
+
+.forside {
+  background-color: #fcbcbc;
+}
+.min_computer {
+  background-color: #ffe9d0;
+}
+
+.operativsystemer {
+  background-color: #d2efda;
+}
+.komponenter {
+  background-color: #c1dce2;
+}
+.galleri {
+  background-color: #f9d7f2;
+}
