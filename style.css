@@ -114,9 +114,11 @@ p {
 .p_link {
   overflow-wrap: break-word;
 }
+.fed {
+  font-weight: bold;
+}
 main {
-  margin-left: 0.7rem;
-  margin-right: 0.7rem;
+  margin-inline: auto;
   padding-block: 0.1rem;
   max-width: 1200px;
   /* hvis man sætter dette ind i css kan man styre maks størrelse på billeder */
@@ -139,6 +141,9 @@ dt {
 dd {
   margin-bottom: 0.7rem;
 }
+.specs {
+  margin-left: 2rem;
+}
 .min_computer_link {
   margin-left: 1rem;
 }
@@ -154,6 +159,7 @@ footer {
 .billede3 {
   margin-top: 7.5rem;
 }
+
 /*************** Baggrunde ***************/
 
 .forside {
